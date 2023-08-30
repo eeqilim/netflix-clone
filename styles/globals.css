@@ -1,0 +1,17 @@
+/* Import tailwind style (will reset CSS) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply black background */
+body {
+  @apply bg-zinc-900 h-full overflow-x-hidden;
+}
+
+#__next {
+  @apply h-full;
+}
+
+html {
+  @apply h-full;
+}
